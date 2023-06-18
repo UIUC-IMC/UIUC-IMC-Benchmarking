@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this GitHub repository if you use our benchmarking data"
+authors:
+  - family-names: Shanbhag
+    given-names: Naresh R
+  - family-names: Roy
+    given-names: Saion K
+title: "IMC-Benchmarking GitHub respository"
+date-released: 03-10-2022
