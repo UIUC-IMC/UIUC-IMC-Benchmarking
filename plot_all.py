@@ -162,6 +162,10 @@ def plot_2(data):
     for j, tech in enumerate(TECH_LIST):
         SRAM_tech = np.array( [i for i in range(len(data.Arch)) if  data.Arch[i] == 'SRAM' and data.Tech[i] == tech])
         ax.scatter(data.TOPS[SRAM_tech], data.TOPS_W[SRAM_tech], marker_size, COLORS[colors[j]], marker[j], label = '%dnm'%tech)
+        # for idx in range(len(SRAM_tech)):
+            # print(SRAM_tech, data.TOPS[SRAM_tech][idx], data.TOPS_W[SRAM_tech][idx], data.Cell_Type[SRAM_tech[idx]])
+            # print()
+            # ax.annotate(data.Cell_Type[SRAM_tech[idx]], (data.TOPS[SRAM_tech][idx], data.TOPS_W[SRAM_tech][idx]), xytext=(0, 5), textcoords='offset points')        
         if MARK_IMC_PROCESSOR[1]:
             SRAM_tech = np.array( [i for i in range(len(data.Arch)) if  data.Arch[i] == 'SRAM' and data.Tech[i] == tech and data.IMC_Proc[i] == 1])
             if len(SRAM_tech):
