@@ -1,6 +1,6 @@
 # Benchmarking of In-memory Computing (IMC) Architectures
 
-This is a repository of IMC metrics extracted from published IC prototypes published in ISSCC, VLSI, CICC, (and ESSCIRC), since 2018, in order to infer trends in this area. The repository includes data for digital accelerators as well but it is not as comprehensive as those for IMCs. The
+This is a repository of IMC metrics extracted from published IC prototypes in ISSCC, VLSI, CICC, (and ESSCIRC), since 2018, in order to infer trends in this area. The repository includes data for digital accelerators as well but it is not as comprehensive as those for IMCs. The
 repository comprises a database (Benchmarking_Data.csv) and Python code (plot_all.py) to generate annually updated versions of the plots found in our CICC'22 paper [Benchmarking In-memory Computing (IMC) Architectures](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9772817) which describes the benchmarking methodology. Please check for annual updates to the database which will occur sometime in August. Users are welcome to generate their own plots using our database. If you do so, please cite our paper and this GitHub repository. A BibTex code is provided below for those using LaTex.
 
 Please inform us of any errors in the database using [this form](https://forms.gle/xLT8NehqR1ALuW2p7). 
