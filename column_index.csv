@@ -28,7 +28,7 @@ E_core_pJ, Energy per IMC core in 1 invocation in pJ
 E_mvm_pJ, Total energy per multi-bit MVM
 Cell_Type, Type of a bitcell used in memory
 Compute_Mod, Compute Model
-Arch, Architecture (SRAM, eNVM, DRAM, eDRAM, or Digital )
+Arch, Architecture (SRAM eNVM DRAM eDRAM or Digital )
 TOPS_a, Architecture throughput
 TOPS, Throughput
 IMC_Proc, Y if the design is IMC Processor. Otherwise blank
