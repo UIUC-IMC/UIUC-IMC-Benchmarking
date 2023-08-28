@@ -31,4 +31,4 @@ Compute_Mod, Compute Model
 Arch, Architecture (SRAM, eNVM, DRAM, eDRAM, or Digital )
 TOPS_a, Architecture throughput
 TOPS, Throughput
-IMC_Proc, Y if the design is IMC Processor, otherwise blank
+IMC_Proc, Y if the design is IMC Processor. Otherwise blank
