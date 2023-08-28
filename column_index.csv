@@ -1,0 +1,33 @@
+TOPS_mm2, Compute Density 
+TOPS_W, Energy Efficiency 
+B_pre_ADC, ADC Precision 
+Tech, Technology Node Size
+Year, Year of Publication
+core_size, Core Size
+N_row, Number of rows per bank
+N_col, Number of columns per bank
+Vdd, Supply Voltage 
+B_X, Input Precision in IMC Bank 
+B_W, Weight Precision in IMC Bank 
+B_ADC, ADC Precision in IMC Bank
+R_C, Number of physical rows computed / read cycle
+R, Number of physical rows in ADC column
+C_C, Number of physical columns computed / read cycle
+C, Number of physical columns per ADC
+N_ADC, Number of ADCs in parallel
+N, Dot product dimension
+N_1b, Number of 1 bit operation per invocation
+B_core, Number of MAC operations in a bank
+alpha, Number of array invocations for 1 MVM (total input precision / input precision in IMC bank)
+T_core_ns, Latency/Delay of 1 invocation
+E_OP1_fJ, Energy per 1 bit Operation
+N_core, Number of IMC core in the architecture
+E_col_fJ, Energy per ADC column in fJ
+E_core_pJ, Energy per IMC core in 1 invocation in pJ
+E_mvm_pJ, Total energy per multi-bit MVM
+Cell_Type, Type of a bitcell used in memory
+Compute_Mod, Compute Model
+Arch, Architecture (SRAM, eNVM, DRAM, eDRAM, or Digital )
+TOPS_a, Architecture throughput
+TOPS, Throughput
+IMC_Proc, Y if the design is IMC Processor, otherwise blank
