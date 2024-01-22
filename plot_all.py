@@ -43,7 +43,7 @@ if SAVE_SVG:
 
 
 # List of Technology and Architectures to Loop
-TECH_LIST = [5,7,12,16,22,28,45,55,65,180]
+TECH_LIST = [4,5,7,12,16,22,28,45,55,65,180]
 ARCH_LIST = ['SRAM', 'eNVM', 'eDRAM', 'Digital']
 ARCH_LABEL_LIST = ['SRAM-IMC', 'eNVM-IMC', 'eDRAM-IMC', 'Digital']
 
@@ -54,7 +54,7 @@ plt.rcParams['legend.loc'] = 'lower right'
 plt.rcParams['font.family'] = 'calibri'
 
 FIG_SIZE = (9.8, 7.8)
-COLORS = {'r': 'r', 'g': 'lawngreen', 'b':'b', 'c': 'cyan', 'k': 'k'}
+COLORS = {'r': 'r', 'g': 'lawngreen', 'b':'b', 'c': 'cyan', 'k': 'k', 'm':'magenta'}
 GRID_ALPHA = 0.4
 
 
@@ -124,8 +124,8 @@ def plot_1(data):
     
     fig, ax = plt.subplots(figsize = FIG_SIZE)
     
-    colors = 'rrggbbcckk'
-    marker = 'ososososos'
+    colors = 'mrrggbbcckk'
+    marker = 'sososososos'
     marker_size = 100 
     
     for j, tech in enumerate(TECH_LIST):
@@ -155,8 +155,8 @@ def plot_1(data):
 def plot_2(data):
     fig, ax = plt.subplots(figsize = FIG_SIZE)
     
-    colors = 'rrggbbcckk'
-    marker = 'ososososos'
+    colors = 'mrrggbbcckk'
+    marker = 'sososososos'
     marker_size = 100 
     
     for j, tech in enumerate(TECH_LIST):
@@ -191,8 +191,8 @@ def plot_2(data):
 def plot_3(data):
     fig, ax = plt.subplots(figsize = FIG_SIZE)
     
-    colors = 'rrggbbcckk'
-    marker = 'ososososos'
+    colors = 'mrrggbbcckk'
+    marker = 'sososososos'
     marker_size = 100 
     
     for j, tech in enumerate(TECH_LIST):
@@ -222,8 +222,8 @@ def plot_3(data):
 def plot_4(data):
     fig, ax = plt.subplots(figsize = FIG_SIZE)
     
-    colors = 'rrggbbcckk'
-    marker = 'ososososos'
+    colors = 'mrrggbbcckk'
+    marker = 'sososososos'
     marker_size = 100 
     
     for j, tech in enumerate(TECH_LIST):
