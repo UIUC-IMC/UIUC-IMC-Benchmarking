@@ -8,8 +8,9 @@ Please inform us of any errors in the database using [this form](https://forms.g
 Maintained by: Soonha Hwang, Ph.D. student, University of Illinois at Urbana-Champaign (2023-present).
 
 ## Update
-- July 2023: the database now incorporates the 2023 data. Additionally, benchmarking plots from 2021, 2022, and 2023, are made available. As always, users can generate their own customized plots using the Python codes provided. 
-
+- July 2023: the database now incorporates the 2023 data. Additionally, benchmarking plots from 2021, 2022, and 2023, are made available. As always, users can generate their own customized plots using the Python codes provided.
+- Jan 2024: Errata found in Index No. 111, 112, 147, 151. The error in the digital accelerator's errata has been corrected
+  
 ## About
 In-memory computing (IMC) architectures have emerged as a compelling platform to implement energy efficient machine learning (ML) systems. However, today, the energy efficiency gains provided by IMC designs seem to be leveling off and it is not clear what the limiting factors are. The conceptual complexity of IMCs combined with the absence of a rigorous benchmarking methodology makes it difficult to gauge progress and identify bottlenecks in this exciting field. Our benchmarking methodology for IMCs comprises of: 1) a compositional view of IMCs that enables one to parse an IMC design into its canonical components; 2) a set of benchmarking metrics to quantify the performance, efficiency, and accuracy of IMCs; and 3) a strategy for analyzing the reported IMC data and metrics.
 
