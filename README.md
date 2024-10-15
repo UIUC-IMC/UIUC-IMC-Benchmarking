@@ -7,7 +7,9 @@ Please inform us of any errors in the database using [this form](https://forms.g
 
 Maintained by: Soonha Hwang, Ph.D. student, University of Illinois at Urbana-Champaign (2023-present).
 
-## Current State
+## IMC Trends
+![Trends](figures/2024_SRAM_IMC_Trend.png)
+
 
 ## Update
 - July 2023: the database now incorporates the 2023 data. Additionally, benchmarking plots from 2021, 2022, and 2023, are made available. As always, users can generate their own customized plots using the Python codes provided.
