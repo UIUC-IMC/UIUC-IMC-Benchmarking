@@ -10,6 +10,7 @@ Maintained by: Soonha Hwang, Ph.D. student, University of Illinois at Urbana-Cha
 ## IMC Trends
 ![Trends](figures/2024_SRAM_IMC_Trend.png)
 
+Here, QS is charge share, QR is charge redistribution, and DIMC is digital IMC models.
 
 ## Update
 - July 2023: the database now incorporates the 2023 data. Additionally, benchmarking plots from 2021, 2022, and 2023, are made available. As always, users can generate their own customized plots using the Python codes provided.
