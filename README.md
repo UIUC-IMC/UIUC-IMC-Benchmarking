@@ -10,12 +10,12 @@ Maintained by: Soonha Hwang, Ph.D. student, University of Illinois at Urbana-Cha
 ## IMC Trends
 ![Trends](figures/2024_SRAM_IMC_Trend.png)
 
-Here, QS is charge share, QR is charge redistribution, and DIMC is digital IMC models.
+Here, QS refers to the charge sharing model, QR refers to the charge redistribution also known as charge domain model, and DIMC is digital IMC.
 
 ## Update
-- July 2023: the database now incorporates the 2023 data. Additionally, benchmarking plots from 2021, 2022, and 2023, are made available. As always, users can generate their own customized plots using the Python codes provided.
+- July 2023: IMC data from 2023 has been updated. Additionally, benchmarking plots from 2021, 2022, and 2023, are made available. As always, users can generate their own customized plots using the Python codes provided.
 - Jan 2024: Errata found in Index No. 111, 112, 147, 151. The error in the digital accelerator's errata has been corrected
-- October 2024: New data has been updated. Only 3 new data has been inputed given our updating methodology.
+- October 2024: IMC data from 2024 has been updated. Only three IMC chips are included this year because: 1) IMC designs have migrated to multi-bank/processor level whereas the database in this repository focuses on bank-level innovations; and 2) insufficient data were reported making it difficult to validate the reported bank-level metrics.
  
 ## About
 In-memory computing (IMC) architectures have emerged as a compelling platform to implement energy efficient machine learning (ML) systems. However, today, the energy efficiency gains provided by IMC designs seem to be leveling off and it is not clear what the limiting factors are. The conceptual complexity of IMCs combined with the absence of a rigorous benchmarking methodology makes it difficult to gauge progress and identify bottlenecks in this exciting field. Our benchmarking methodology for IMCs comprises of: 1) a compositional view of IMCs that enables one to parse an IMC design into its canonical components; 2) a set of benchmarking metrics to quantify the performance, efficiency, and accuracy of IMCs; and 3) a strategy for analyzing the reported IMC data and metrics.
